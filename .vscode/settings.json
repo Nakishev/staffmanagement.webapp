@@ -1,0 +1,6 @@
+{
+	"editor.inlayHints.enabled": "off",
+	"appService.defaultWebAppToDeploy": "/subscriptions/c4ffad4b-2fa2-43dd-b140-e6d75106cf3a/AppServices/subscriptions/c4ffad4b-2fa2-43dd-b140-e6d75106cf3a/resourceGroups/rg-staffmanagement-prod/providers/Microsoft.Web/sites/wa-staffmanagement-prod",
+	"appService.deploySubpath": "./build",
+	"appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"]
+}
