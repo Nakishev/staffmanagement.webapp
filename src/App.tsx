@@ -16,11 +16,11 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Dashboard />} />
-					<Route path="persons" element={<Persons />} />
-					<Route path="person/:id" element={<PersonDetails />} />
-					<Route path="requirements" element={<Requirements />} />
+					<Route path="/persons" element={<Persons />} />
+					<Route path="/person/:id" element={<PersonDetails />} />
+					<Route path="/requirements" element={<Requirements />} />
 					<Route
-						path="requirementcategories"
+						path="/requirementcategories"
 						element={<RequirementCategories />}
 					/>
 				</Route>
